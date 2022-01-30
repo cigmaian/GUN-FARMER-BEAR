@@ -10,7 +10,9 @@
 
 html{
    min-height: 100%;
-   font-family: 'zai Dune Felt-tip Pen', sans-serif;
+   /* font-family: 'zai Dune Felt-tip Pen', sans-serif;
+    */
+    font-family: 'BioRhyme', serif;
 }
 
 body{
