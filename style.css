@@ -1,0 +1,167 @@
+:root{
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+   min-height: 100%;
+   font-family: 'zai Dune Felt-tip Pen', sans-serif;
+}
+
+body{
+    line-height: 1.6;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color:#060422;
+    /* font-family: 'BioRhyme', serif;
+    */
+   
+      
+}
+
+.title{
+    color:#e33409;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.scoreboard{
+    margin-bottom: 1.5rem;
+}
+
+.score-info{
+    font-size: 3rem;
+}
+.score-message{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.scores-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.score-box{
+    width: 17rem;
+}
+.sign{
+    font-size: 8rem;
+
+}
+
+.score {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: silver;
+    border-radius: 5px;
+    
+}
+
+
+
+.btn:hover{
+    background-color: gray;
+}
+
+.btn-restart{
+    background-color: #e33409;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.btn-restart:active{
+    transform: scale(1.3);
+    opacity: 60%;
+
+}
+
+.btn-square{
+    min-width: 12rem;
+    min-height: 12rem;    
+}
+
+.rules{
+    font-size: 2.1rem;
+    padding: 3rem 0;
+}
+
+.main button{
+    font-family: 'zai Dune Felt-tip Pen', sans-serif;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    bottom: 0;
+    font-size: 1.4rem;
+}
+.fab{
+    margin:0 0 0.4rem 2rem;
+
+}
+@media (max-width: 550px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .score-info {
+    font-size: 26px;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+
+  .btn-square {
+    width: 100px;
+    height: 100px;
+  }
+
+  .sign {
+    font-size: 50px;
+    
+  }
+
+  .modal {
+    width: 95%;
+  }
+}

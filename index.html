@@ -1,29 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <title> 🔫|| 👨‍🌾|| 🐻</title>
+  <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+   <link href="http://fonts.cdnfonts.com/css/zai-dune-felt-tip-pen" rel="stylesheet">
+                
+  <link rel="stylesheet" href="./style.css">
+      <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
-    
-
-
-    
-    <h1> Let's play Rock Paper Scissors </h1>
-
-      <div style="margin-bottom: 20px">
-    <input type="button" value="rock"></input>
-    <input type="button" value="paper"></input>
-    <input type="button" value="scissors"></input>
-  </div>
-  <div id="result"></div>
-
-
-   <script src="./script.js" defer></script> 
+  <header class="header">
+    <h1 class="title">GUN FARMER BEAR</h1>
+  </header>
+  <main class="main">
+    <div class="scoreboard">
+      <h2 class="score-info" id="scoreInfo">Pick your choice</h2>
+      <h3 class="score-message" id="scoreMessage">
+        First to score 5 points wins the game
+      </h3>
+      <div class="scores-container">
+        <div class="score-box">
+          <div class="sign" id="playerSign">❔</div>
+          <p class="score" id="playerScore">Player: 0</p>
+        </div>
+        <div class="score-box">
+          <div class="sign" id="computerSign">❔</div>
+          <p class="score" id="computerScore">Computer: 0</p>
+        </div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="btn btn-square" id="rockBtn">
+        <div class="sign">🔫</div>
+      </button>
+      <button class="btn btn-square" id="paperBtn">
+        <div class="sign">👨‍🌾</div>
+      </button>
+      <button class="btn btn-square" id="scissorsBtn">
+        <div class="sign">🐻</div>
+      </button>
+    </div>
+     <button class=" btn-restart" id="restartBtn">Play again</button>
+       <p class="rules">Gun kills bear | Bear kills farmer | Farmer kills gun.</p>
+    <footer>
+       <p>
+        Made by Cigmaian
+        <script>
+          document.write(new Date().getFullYear())
+        </script>
+      </p>
+      <a href="https://github.com/cigmaian" target="_blank">
+        <i class="fab fa-github"></i
+      ></a>
+       
+    </footer>
+  </main>
+  <script src="script.js" defer></script>
 </body>
 </html>
-
-        
