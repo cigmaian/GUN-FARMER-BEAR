@@ -1,11 +1,15 @@
-:root{
 
-}
 @font-face {
     font-family: 'zai Dune Felt-tip Pen';
     font-style: normal;
     font-weight: 400;
     src: local('zai Dune Felt-tip Pen'), url('../Project-Rock-Paper-Scissors/ZaiDuneFeltTipPen-w1AD2.ttf') format('woff');
+}
+@font-face {
+    font-family: 'zai Dune Felt-tip Pen';
+    font-style: normal;
+    font-weight: 400;
+    src: local('zai Dune Felt-tip Pen'), url('https://fonts.cdnfonts.com/s/74564/ZaiDuneFeltTipPen-w1AD2.woff') format('woff');
 }
 *{
     margin:0;
@@ -23,8 +27,8 @@ html{
 
 body{
     line-height: 1.6;
-  /*  font-family: 'zai Dune Felt-tip Pen', sans-serif;
-*/
+    font-family: 'zai Dune Felt-tip Pen', sans-serif;
+
 }
 
 .header{
